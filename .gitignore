@@ -6,3 +6,12 @@
 
 # classpath files
 *.classpath
+
+# Maven #
+target/
+log/
+
+# IDEA #
+.idea/
+*.iml
+*.iws
