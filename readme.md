@@ -2,10 +2,11 @@
 
 ## 2020年8月23日
 
-修改动态代理模式，见 module:designpattern-dynamicproxy
-增加动态代理类的class文件输出，参考 [Java 动态代理详解](https://juejin.im/post/6844903744954433544#heading-7)   
+- 修改动态代理模式，见 module:designpattern-dynamicproxy
+- 增加动态代理类的class文件输出，
+- 参考 [Java 动态代理详解](https://juejin.im/post/6844903744954433544#heading-7)   ;[细说JDK动态代理的实现原理](https://blog.csdn.net/mhmyqn/article/details/48474815#)
 
-如下描述java动态代理中增加Spring AOP提供的各种拦截该如何实现
+- 如下描述java动态代理中增加Spring AOP提供的各种拦截该如何实现
 
 ```java
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
