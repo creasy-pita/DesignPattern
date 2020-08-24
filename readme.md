@@ -1,4 +1,9 @@
-# design pattern implement with java 
+# design pattern implement with java
+
+## 2020年8月24日
+
+代码解读
+`Proxy.newProxyInstance`  会调用`proxy.java`中的 `ProxyClassFactory`的 `apply`方法
 
 ## 2020年8月23日
 
@@ -27,7 +32,6 @@
         return retVal;
     }
 ```
-
 
 ## 2019-09-11
 

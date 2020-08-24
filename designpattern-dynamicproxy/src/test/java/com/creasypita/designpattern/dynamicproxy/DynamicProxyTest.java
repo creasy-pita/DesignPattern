@@ -13,6 +13,6 @@ public class DynamicProxyTest {
                 , vehicle.getClass().getInterfaces(), th);
         v.run();
         // 保存JDK动态代理生成的代理类，类名保存为 vehicleProxy
-        ProxyUtils.generateClassFile(vehicle.getClass(), "vehicleProxy");
+//        ProxyUtils.generateClassFile(vehicle.getClass(), "vehicleProxy");
     }
 }
